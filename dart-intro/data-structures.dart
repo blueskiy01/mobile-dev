@@ -1,5 +1,4 @@
-void main() {
-  // Declare and initialize List variables
+// Declare and initialize List variables
   List<int> listNum = [1, 2, 3, 4, 5];
   List<Object> listObj = ["Object 1", "Object 2", 42, true];
   List<String> listStr = ["Apple", "Banana", "Orange"];
@@ -13,11 +12,3 @@ void main() {
   // Declare and initialize Map variable
   Map<String, int> mapStr = {'One': 1, 'Two': 2, 'Three': 3};
 
-  // Display the values
-  print("listNum: $listNum");
-  print("listObj: $listObj");
-  print("listStr: $listStr");
-  print("listList: $listList");
-  print("setStr: $setStr");
-  print("mapStr: $mapStr");
-}
