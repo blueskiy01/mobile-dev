@@ -208,6 +208,13 @@ class ScoreScreen extends StatelessWidget{
           child:Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
+              const SizedBox(height: 20), // Spacing before the image
+          Image.asset(
+            'assets/images/score.png', // Path to your image asset
+            width: 150,
+            height: 150,
+          ),
+          const SizedBox(height: 20), // Spacing between the image and the score text
               Text(
                 'Your Score: $score/$totalQuestions',
                 style: const TextStyle(fontSize: 24, color: Colors.grey),

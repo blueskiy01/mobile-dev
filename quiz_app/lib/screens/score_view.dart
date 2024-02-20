@@ -30,17 +30,22 @@ class ScoreView extends StatelessWidget {
                 fontSize: 18,
               ),
             ),
-            SizedBox(height: 10),
+            const SizedBox(height: 10),
             Text(
               'Incorrect Answers: ${totalQuestions - correctAnswers} / $totalQuestions',
               style: const TextStyle(
                 fontSize: 18,
               ),
             ),
-            SizedBox(height: 30),
+            Image.asset(
+              'assets/images/score.png',
+              width: 200,
+              height: 200,
+            ),
+            const SizedBox(height: 30),
             ElevatedButton(
               onPressed: () {
-                Navigator.pop(context); // Navigate back to the main page
+                Navigator.pop(context);
               },
               child: const Text('Return to Main Page'),
             ),

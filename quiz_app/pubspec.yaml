@@ -59,6 +59,7 @@ flutter:
     - assets/images/history.jpg
     - assets/images/music.jpg
     - assets/images/game.jpg
+    - assets/images/score.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
