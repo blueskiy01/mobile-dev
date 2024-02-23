@@ -30,8 +30,8 @@ The appbar in this page should displays the name of the movie and a back button.
 
 ## Screenshots
 <div style="display: flex;">
-  <img src="https://github.com/blueskiy01/mobile-dev/raw/main/movie-list/assets/image/home_view.png" alt="Home View" width="400" style="margin-right: 20px;">
-  <img src="https://github.com/blueskiy01/mobile-dev/raw/main/movie-list/assets/image/detailed_view.png" alt="Detailed View" width="400">
+  <img src="https://github.com/blueskiy01/mobile-dev/raw/main/movie-list/assets/image/home_view.png" alt="Home View" width="250" style="margin-right: 20px;">
+  <img src="https://github.com/blueskiy01/mobile-dev/raw/main/movie-list/assets/image/detailed_view.png" alt="Detailed View" width="250">
 </div>
 
 
