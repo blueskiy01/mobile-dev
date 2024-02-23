@@ -5,6 +5,7 @@ In this exercise, I developed a fully functional app that uses JSON files to dis
 
 ## Features
 - Display top-rated movies with descending rating on the home page.
+- Rating filter slider to filter movies by rating.
 - Tap on a movie to view detailed information.
 - Include a search bar to search for movies by name.
 - Search function returns movies whose name includes the entered string, similar to SQL's ilike comparison.
@@ -26,6 +27,10 @@ The appbar in this page should displays the name of the movie and a back button.
 1. Clone the repository.
 2. Open the project in Android Studio.
 3. Run the app on an emulator or physical device.
+
+## Screenshots
+![Home View](https://example.com/screenshot1.png)
+![Detailed View](https://example.com/screenshot2.png)
 
 ## Contributors
 - [blueskiy](https://github.com/blueskiy01)
