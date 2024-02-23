@@ -29,8 +29,8 @@ The appbar in this page should displays the name of the movie and a back button.
 3. Run the app on an emulator or physical device.
 
 ## Screenshots
-![Home View](https://example.com/screenshot1.png)
-![Detailed View](https://example.com/screenshot2.png)
+![Home View](https://github.com/blueskiy01/mobile-dev/blob/main/movie-list/assets/image/home_view.png?raw=true)
+![Detailed View](https://github.com/blueskiy01/mobile-dev/blob/main/movie-list/assets/image/detailed_view.png?raw=true)
 
 ## Contributors
 - [blueskiy](https://github.com/blueskiy01)
