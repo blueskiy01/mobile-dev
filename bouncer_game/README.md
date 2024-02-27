@@ -48,7 +48,7 @@ The project follows a structured approach with separate files for different comp
 
 - `sensors_plus`: Used for accessing accelerometer data.
 ## Screenshots
-
+![Preview](https://github.com/blueskiy01/mobile-dev/blob/main/bouncer_game/lib/asset/images/readme.gif)
 
 ## Contributor
 [blueskiy](github.com/blueskiy01)
