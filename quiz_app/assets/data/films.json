@@ -1,0 +1,17 @@
+[
+  {"question": "The Godfather was directed by Francis Ford Coppola.", "answer": true},
+  {"question": "The Shawshank Redemption was released in 1994.", "answer": true},
+  {"question": "Titanic won 12 Academy Awards.", "answer": true},
+  {"question": "The Lord of the Rings: The Return of the King is the highest-grossing film of all time.", "answer": false},
+  {"question": "Forrest Gump was played by Tom Hanks.", "answer": true},
+  {"question": "Inception was directed by Christopher Nolan.", "answer": true},
+  {"question": "Pulp Fiction was released in 1993.", "answer": true},
+  {"question": "The Matrix stars Keanu Reeves as Neo.", "answer": true},
+  {"question": "Schindler's List is a comedy film.", "answer": false},
+  {"question": "The Silence of the Lambs won the Academy Award for Best Picture in 1992.", "answer": true},
+  {"question": "The Shawshank Redemption was based on a Stephen King novel.", "answer": true},
+  {"question": "The Godfather is a trilogy.", "answer": true},
+  {"question": "Casablanca is set during World War I.", "answer": false},
+  {"question": "Gone with the Wind is the longest American film made during the Golden Age of Hollywood.", "answer": true},
+  {"question": "Avatar is the highest-grossing film of all time.", "answer": true}
+]
