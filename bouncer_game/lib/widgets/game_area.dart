@@ -1,4 +1,5 @@
 import 'package:bouncer/widgets/player_tile.dart';
+import 'package:sensors_plus/sensors_plus.dart';
 import 'package:flutter/material.dart';
 import '../controllers/game_controller.dart'; // Ensure this path matches your project structure
 import 'dart:async';
@@ -12,7 +13,7 @@ class GameArea extends StatefulWidget {
   const GameArea({super.key});
 
   @override
-  _GameAreaState createState() => _GameAreaState();
+  createState() => _GameAreaState();
 }
 
 class _GameAreaState extends State<GameArea> {
@@ -50,6 +51,26 @@ class _GameAreaState extends State<GameArea> {
   @override
   void initState() {
     super.initState();
+
+    // Add accelerometer event listener here
+    accelerometerEventStream().listen((AccelerometerEvent event) {
+      setState(() {
+        final screenWidth = screenSize.width;
+        final screenOrientation = MediaQuery.of(context).orientation;
+
+        double deltaX;
+        if (screenOrientation == Orientation.portrait) {
+          deltaX = event.x * 10; // For portrait orientation
+        } else {
+          deltaX = event.y * 10; // For landscape orientation
+        }
+
+        paddle.updatePosition(deltaX, screenWidth, screenOrientation);
+      });
+    });
+
+
+
     WidgetsBinding.instance.addPostFrameCallback((_) {
       resetGame();
     });
@@ -173,7 +194,7 @@ class _GameAreaState extends State<GameArea> {
                     ),
                     child: Text(
                       isGameOver ? "You Lose! Tap to retry." : "You Win! Tap to retry.",
-                      style: TextStyle(fontSize: 24, color: Colors.white), // Adjust text color
+                      style: const TextStyle(fontSize: 24, color: Colors.white), // Adjust text color
                     ),
                   ),
                 ),
