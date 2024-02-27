@@ -1,7 +1,7 @@
 class Block {
   double x, y;
   bool isHit = false; // To track if the block has been hit
-  static const double width = 50, height = 20; // Block dimensions
+  static const double width = 80, height = 30; // Block dimensions
 
   Block(this.x, this.y);
 

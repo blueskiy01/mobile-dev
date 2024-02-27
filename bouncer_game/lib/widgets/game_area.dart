@@ -103,8 +103,9 @@ class _GameAreaState extends State<GameArea> {
 
   List<Block> _createBlocks(int rows, int cols) {
     List<Block> tempBlocks = [];
-    double startX = 20, startY = 20;
-    double padding = 3;
+    double padding = 3; // Move the declaration here
+    double startX = (screenSize.width - cols * (Block.width + padding)) / 2; // Calculate startX to center blocks
+    double startY = 20;
 
     for (int row = 0; row < rows; row++) {
       for (int col = 0; col < cols; col++) {
